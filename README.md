@@ -16,7 +16,7 @@ A Java contact management service that stores records in memory and validates co
 
 The [ContactService folder](ContactService/) contains the contact model, service, and JUnit tests.
 
-**Known test issue:** Three update assertions in `ContactServiceTest.java` expect different values from those passed into the corresponding update calls. The tests have not been verified as passing. No Java code has been changed as part of this documentation update.
+**Test status:** The previously mismatched first-name, last-name, and address assertions in `ContactServiceTest.java` have been corrected to match the values passed to the update methods. The full JUnit test suite has not yet been executed or verified as passing.
 
 ## Development process and lessons learned
 
