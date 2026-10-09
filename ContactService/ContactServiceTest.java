@@ -52,7 +52,7 @@ public class ContactServiceTest {
 
 	    service.updateFirstName("1", "Karyn");
 
-	    assertEquals("Kara", service.getContact("1").getFirstName());
+	    assertEquals("Karyn", service.getContact("1").getFirstName());
 	}
 	
 	@Test
@@ -64,7 +64,7 @@ public class ContactServiceTest {
 
 	    service.updateLastName("1", "Chavez");
 
-	    assertEquals("Smith", service.getContact("1").getLastName());
+	    assertEquals("Chavez", service.getContact("1").getLastName());
 	}
 
 	@Test
@@ -88,7 +88,7 @@ public class ContactServiceTest {
 
 	    service.updateAddress("1", "456 Primary Ave");
 
-	    assertEquals("456 Oak Ave", service.getContact("1").getAddress());
+	    assertEquals("456 Primary Ave", service.getContact("1").getAddress());
 	}
 	
 	@Test
